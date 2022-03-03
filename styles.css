@@ -14,8 +14,8 @@ body {
 
 .container {
     background: #14bdac;
-    margin: 400px;
-    padding: 50px;
+    margin: 100px;
+    padding: 20px;
     border-radius: 25px;
 }
 
@@ -54,13 +54,13 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-gap: 10px;
     margin-top: 30px;
 }
 
 .game-cell {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,12 +74,12 @@ body {
 }
 
 .x::after {
-    font-size: 200px;
+    font-size: 100px;
     content: '×';
 }
 
 .o::after {
-    font-size: 225px;
+    font-size: 125px;
     color: #f2ebd3;
     content: '○';
 }
